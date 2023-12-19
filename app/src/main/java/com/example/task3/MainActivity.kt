@@ -1,6 +1,7 @@
 package com.example.task3
 
 import android.os.Bundle
+import android.view.View
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
@@ -15,9 +16,42 @@ import com.example.task3.ui.theme.Task3Theme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent {
+        setContentView(R.layout.activity_main)
+    }
 
-        }
+    fun numberHandler(view: View)
+    {
+
+    }
+
+    fun operationHandler(view: View)
+    {
+
+    }
+
+    fun allClearHandler(view: View)
+    {
+
+    }
+
+    fun backSpaceHandler(view: View)
+    {
+
+    }
+
+    fun signChangeHandler(view: View)
+    {
+
+    }
+
+    fun equalsHandler(view: View)
+    {
+
+    }
+
+    fun squareRootHandler(view: View)
+    {
+
     }
 }
 

@@ -47,6 +47,7 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <!-- first row -->
     <LinearLayout
         style="@style/buttonRow">
 
@@ -67,28 +68,32 @@
             android:text="@string/button_d5"/>
 
     </LinearLayout>
-
+    <!-- second row -->
     <LinearLayout
         style="@style/buttonRow">
 
         <Button
             style="@style/buttonOperator"
+            android:onClick="backSpaceHandler"
             android:text="@string/button_back"/>
         <Button
             style="@style/buttonOperator"
             android:text="@string/button_d6"/>
         <Button
             style="@style/buttonOperator"
+            android:onClick="allClearHandler"
             android:text="@string/button_clear" />
         <Button
             style="@style/buttonOperator"
+            android:onClick="signChangeHandler"
             android:text="@string/button_sign_change"/>
         <Button
             style="@style/buttonOperator"
+            android:onClick="squareRootHandler"
             android:text="@string/button_square_root"/>
 
     </LinearLayout>
-
+    <!-- third row -->
     <LinearLayout
         style="@style/buttonRow">
 
@@ -109,7 +114,7 @@
             android:text="@string/button_d7"/>
 
     </LinearLayout>
-
+    <!-- fourth row -->
     <LinearLayout
         style="@style/buttonRow">
 
@@ -130,7 +135,7 @@
             android:text="@string/button_d8"/>
 
     </LinearLayout>
-
+    <!-- fifth row -->
     <LinearLayout
         style="@style/buttonRow">
 
@@ -151,7 +156,7 @@
             android:text="@string/button_d9"/>
 
     </LinearLayout>
-
+    <!-- sixth row -->
     <LinearLayout
         style="@style/buttonRow">
 
@@ -167,6 +172,7 @@
             android:text="@string/button_add"/>
         <Button
             style="@style/buttonOperator"
+            android:onClick="equalsHandler"
             android:text="@string/button_equals"/>
 
     </LinearLayout>
