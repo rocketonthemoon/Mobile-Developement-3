@@ -36,4 +36,5 @@
     <string name="button_d6">CE</string>
     <string name="button_d7">%</string>
     <string name="button_d8">1/x</string>
+    <string name="button_d9">x</string>
 </resources>
