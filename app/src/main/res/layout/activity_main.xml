@@ -22,7 +22,7 @@
             android:text=""
             android:lines="2"
             android:maxLines="2"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textAlignment="textEnd"
             android:textSize="25sp"
             app:layout_constraintBottom_toTopOf="@id/tvResults"
@@ -37,7 +37,7 @@
             android:text=""
             android:lines="1"
             android:maxLines="1"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textAlignment="textEnd"
             android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -99,15 +99,19 @@
 
         <Button
             style="@style/buttonNumber"
+            android:onClick="numberHandler"
             android:text="@string/button_7"/>
         <Button
             style="@style/buttonNumber"
+            android:onClick="numberHandler"
             android:text="@string/button_8"/>
         <Button
             style="@style/buttonNumber"
+            android:onClick="numberHandler"
             android:text="@string/button_9" />
         <Button
             style="@style/buttonOperator"
+            android:onClick="operationHandler"
             android:text="@string/button_divide"/>
         <Button
             style="@style/buttonOperator"
@@ -120,15 +124,19 @@
 
         <Button
             style="@style/buttonNumber"
+            android:onClick="numberHandler"
             android:text="@string/button_4"/>
         <Button
             style="@style/buttonNumber"
+            android:onClick="numberHandler"
             android:text="@string/button_5"/>
         <Button
             style="@style/buttonNumber"
+            android:onClick="numberHandler"
             android:text="@string/button_6" />
         <Button
             style="@style/buttonOperator"
+            android:onClick="operationHandler"
             android:text="@string/button_multiply"/>
         <Button
             style="@style/buttonOperator"
@@ -141,15 +149,19 @@
 
         <Button
             style="@style/buttonNumber"
+            android:onClick="numberHandler"
             android:text="@string/button_1"/>
         <Button
             style="@style/buttonNumber"
+            android:onClick="numberHandler"
             android:text="@string/button_2"/>
         <Button
             style="@style/buttonNumber"
+            android:onClick="numberHandler"
             android:text="@string/button_3" />
         <Button
             style="@style/buttonOperator"
+            android:onClick="operationHandler"
             android:text="@string/button_subtract"/>
         <Button
             style="@style/buttonOperator"
@@ -163,12 +175,15 @@
         <Button
             style="@style/buttonNumber"
             android:layout_weight="2"
+            android:onClick="numberHandler"
             android:text="@string/button_0"/>
         <Button
             style="@style/buttonOperator"
+            android:onClick="numberHandler"
             android:text="@string/button_decimal"/>
         <Button
             style="@style/buttonOperator"
+            android:onClick="operationHandler"
             android:text="@string/button_add"/>
         <Button
             style="@style/buttonOperator"
